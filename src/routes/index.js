@@ -1,7 +1,7 @@
 function GET(req, res, url, payload) {
     const ip = res.socket.remoteAddress;
     const port = res.socket.remotePort;
-    res.json({name: `My main page`})
+    res.json({name: `Main Page of nodejs lab2`})
 }
 
 function OPTIONS(req, res, url, payload) {
